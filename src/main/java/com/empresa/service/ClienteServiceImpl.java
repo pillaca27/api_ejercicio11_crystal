@@ -31,11 +31,6 @@ public class ClienteServiceImpl implements ClienteService {
 	}
 
 	@Override
-	public List<Cliente> listaClientePorNombreLike(String filtro) {
-		return repository.listaClientePorNombreLike(filtro);
-	}
-
-	@Override
 	public Optional<Cliente> obtienePorId(int cod_cli) {
 		return repository.findById(cod_cli);
 	}

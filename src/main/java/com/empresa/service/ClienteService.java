@@ -11,5 +11,4 @@ public interface ClienteService {
 	public abstract Cliente insertaActualizaCliente(Cliente obj);
 	public abstract Optional<Cliente> obtienePorId(int idAlumno);
 	public abstract void eliminaCliente(int id);
-	public abstract List<Cliente> listaClientePorNombreLike(String filtro);
 }
